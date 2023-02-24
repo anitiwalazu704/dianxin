@@ -10,6 +10,6 @@
 
 ## 使用
 - 仅需修改`cdjt.py`中的账号密码
-- 科学上网环境下命令行`pip install requirements.txt`
-- 建议添加到开机自启
+- 科学上网环境下命令行`pip install -r requirements.txt`
+- 建议添加到<a href="https://zhuanlan.zhihu.com/p/259279769">开机自启</a> 
 - 运行`cdjt.py`
