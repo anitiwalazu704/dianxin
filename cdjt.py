@@ -28,8 +28,8 @@ async def run():
     await page.goto(url)  # 问卷星网址
 
     # 模拟输入 账号密码  {'delay': rand_int()} 为输入时间
-    await page.type('#username_tip', "18180785347")
-    await page.type('#pwd_tip', "12345678")
+    await page.type('#username_tip', "账号")
+    await page.type('#pwd_tip', "12345678") #密码默认为12345678
 
     await page.click("#loginLink_div")
 
